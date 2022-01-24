@@ -1,9 +1,9 @@
-main{
+.size{
     font-size: 24px;
 }
-p{
+.color__green{
     color: green;
 }
-li{
+.color__orange{
     color: orange;
 }
