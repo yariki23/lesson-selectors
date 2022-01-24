@@ -1,9 +1,6 @@
-.size{
-    font-size: 24px;
+div{
+    display: inline-block;
 }
-.color__green{
-    color: green;
-}
-.color__orange{
-    color: orange;
+span{
+    display: block;
 }
