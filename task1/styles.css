@@ -3,7 +3,7 @@ li{
 }
 [target="_blank"]{
     border: 2px solid black;
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 [href ^= "broken"]{
     border: 2px solid red;
