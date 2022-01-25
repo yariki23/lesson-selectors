@@ -3,6 +3,7 @@ li{
 }
 [target="_blank"]{
     border: 2px solid black;
+    font-size: 16px;
 }
 [href ^= "broken"]{
     border: 2px solid red;
@@ -10,9 +11,9 @@ li{
 [href$=".com"]{
     margin-left: 50px;
 }
-/* [lang|=en]{
+[lang|="en"]{
     font-size: 10px;
-} */
+}
 [href *= "www"]{
     color: green;
 }
