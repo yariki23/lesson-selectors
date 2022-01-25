@@ -16,6 +16,6 @@ article.new{
 li.new{
     background: red;
 }
-.new, .postes-todey{
+.new.posted-today{
     background: pink;
 }
