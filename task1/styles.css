@@ -11,7 +11,7 @@ a[href ^= "broken"]{
 a[href$=".com"]{
     margin-left: 50px;
 }
-[lang|="en"], li:nth-child(2){
+[lang|=en]{
     font-size: 10px;
 }
 a[href *= "www"]{
