@@ -10,6 +10,6 @@
 a[href^="https://"]{
     color: green;
 }
-[lang*=en]{
+span[lang*=en]{
     font-size: 28px;
 }
