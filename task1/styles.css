@@ -1,12 +1,12 @@
-*{
-    background: green;
+[data-description="anchors"]{
+    background: grey;
 }
-li{
+[data-description]{
     font-size: 24px;
 }
-.page-header{
-    background: orange;
+a[href][target]{
+    color: green;
 }
-#best{
-    border: 2px solid red;
+input[type="text"]{
+    background: orange;
 }
