@@ -1,20 +1,12 @@
-header{
-    background: red;
-    height: 100px;
+*{
+    color: green;
 }
-h1{
+li{
     font-size: 24px;
-    color: white;
 }
-main{
-    background: blue;
-    font-size: 18px;
-    height: 300px;
-    color: white;
+.page-header{
+    background: orange;
 }
-footer{
-    background: green;
-    font-size: 18px;
-    height: 100px;
-    color: white;
+#best{
+    border: 2px solid red;
 }
