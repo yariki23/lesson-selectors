@@ -14,9 +14,7 @@ p{background: yellow;}
 input{
     border: 3px solid red;
 }
-.hello{
-    background-color: white;
-}
+
 #special{
     border: 2px solid blue;
 }
@@ -32,7 +30,10 @@ div:nth-child(3) p{
 div:nth-child(3) p:nth-child(2){
     border: 5px white;
 }
-div:nth-child(3) em{
+em{
     color: white;
     font-size: 20px;
+}
+.hello{
+    background-color: white;
 }
