@@ -1,18 +1,16 @@
-.theory::first-letter{
-    font-size: 36px;
-    margin-left: 16px;
-    color: orange;
+input[type="checkbox"]:checked{
+    margin-left: 50px;
 }
-.theory::first-line{
-    font-size: 24px;
+#special::first-letter{
+    color: green;
+    font-size: 100px;
 }
-p::selection{
-    background-color: red;
-    color: white;
+h1:hover{
+    color: blue;
 }
-a::before{
-    content: ">";
+a:visited{
+    color: gray;
 }
-a::after{
-    content: "<";
+label{
+    text-transform: uppercase;
 }
