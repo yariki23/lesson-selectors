@@ -18,17 +18,18 @@ input{
 #special{
     border: 2px solid blue;
 }
+#special~p{
+    border: none;
+}
 div > p{
     font-size: 25px;
 }
 input[type="text"]{
     background-color: gray;
 }
-div:nth-child(3) p{
-    background-color: yellow;
-}
-div:nth-child(3) p:nth-child(2){
-    border: 5px white;
+
+div p:nth-last-child(1){
+    border: 5px solid white;
 }
 em{
     color: white;
