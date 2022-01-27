@@ -1,19 +1,7 @@
 
 .first-div{
-    background-color: bisque;
-    width: 420px;
-    height: 140px;
-    padding: 20px;
-    margin: 50px 100px;
-    border: 10px solid black;
-    border-width: 10px 20px;
-    border-left-style: dashed;
-    border-bottom-style: dashed;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-left-color: aqua;
-    border-right-color: chartreuse;
-    border-top-color: firebrick;
-    border-bottom-color: burlywood;
-    font-size: 24px;
+    border: 3px solid black;
+    padding: 50px;
+    background-color: aqua;
+
 }
