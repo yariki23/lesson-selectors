@@ -1,40 +1,17 @@
-body{
-    background: #bdc3c7;
+*{
+    box-sizing: border-box;
 }
-h1{
-    color: #9b59b6;
-}
-h2{
-    color: orange;
-}
-li{
-    color: blue;
-}
-p{background: yellow;}
-input{
-    border: 3px solid red;
-}
+div{
+    border: 8px solid black;
+    margin: 16px;
+    padding: 16px;
+    width: 512px;
+    height: 128px;
 
-#special{
-    border: 2px solid blue;
 }
-#special~p{
-    border: none;
+.first-div{
+    background-color: aquamarine;
 }
-div > p{
-    font-size: 25px;
-}
-input[type="text"]{
-    background-color: gray;
-}
-
-div p:nth-last-child(1){
-    border: 5px solid white;
-}
-em{
-    color: white;
-    font-size: 20px;
-}
-.hello{
-    background-color: white;
+.second-div{
+    background-color: azure;
 }
