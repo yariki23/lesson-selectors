@@ -5,3 +5,6 @@
     background-color: aqua;
     margin: 50px 0;
 }
+.first-div:nth-child(1){
+    margin-top: 0;
+}
