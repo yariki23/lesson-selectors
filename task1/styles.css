@@ -1,10 +1,16 @@
-
-.first-div{
-    border: 3px solid black;
-    padding: 50px;
-    background-color: aqua;
-    margin: 50px 0;
+.color-blue{
+    background-color: blue;
 }
-.first-div:nth-child(1){
-    margin-top: 0;
+.color-yellow{
+    background-color: yellow;
+}
+.color-green{
+    background-color: green;
+}
+.color-pink{
+    background-color: pink;
+}
+div{
+    margin: 50px;
+    padding: 50px;
 }
