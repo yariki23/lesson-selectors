@@ -1,18 +1,28 @@
-.color-blue{
-    background-color: blue;
-    margin: 50px;
+div:nth-child(1){
+    width: 100px;
+    height: 50px;
+    border-radius: 16px;
+    background-color: forestgreen;
 }
-.color-yellow{
-    background-color: yellow;
+div:nth-child(2){   
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: darkmagenta;
+
 }
-.color-green{
-    background-color: green;
+div:nth-child(3){
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: aquamarine;
 }
-.color-pink{
-    background-color: pink;
-}
-div{
-    border: 2px solid black;
-    padding: 50px;
+div:nth-child(4){
+    width: 100px;
+    height: 100px;
+    border: 50px solid transparent;
+    border-top: 50px solid brown;
     
+    box-sizing: border-box;
 }
+div{margin: 50px;}
