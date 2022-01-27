@@ -1,18 +1,24 @@
-*{
-    box-sizing: border-box;
-}
-.container{
-    float: left;
-    width: 50%;
-}
-.red{
+.block_red{
     background-color: red;
-    float: right;
 }
-.green{
+.block_green{
     background-color: green;
-    float: left;
 }
-footer{
-    clear: both;
+.block_blue{
+    background-color: blue;
+}
+.block_yellow{ 
+    background-color: yellow;
+}
+.block_black{
+    background-color: black;
+}
+div{
+    float: left;
+    min-width: 20%;
+    height: 200px;
+}
+*{
+    margin: 0;
+    padding: 0;
 }
