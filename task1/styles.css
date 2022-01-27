@@ -1,8 +1,6 @@
-*{
-    box-sizing: border-box;
-}
+
 div{
-    box-sizing: content-box;
+    
     border: 8px solid black;
     margin: 16px;
     padding: 16px;
@@ -12,7 +10,9 @@ div{
 }
 .first-div{
     background-color: aquamarine;
+    box-sizing: content-box;
 }
 .second-div{
     background-color: azure;
+    box-sizing: border-box;
 }
