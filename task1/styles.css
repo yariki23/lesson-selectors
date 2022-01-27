@@ -1,5 +1,6 @@
 .color-blue{
     background-color: blue;
+    margin: 50px;
 }
 .color-yellow{
     background-color: yellow;
@@ -11,6 +12,7 @@
     background-color: pink;
 }
 div{
-    margin: 50px;
+    border: 2px solid black;
     padding: 50px;
+    
 }
