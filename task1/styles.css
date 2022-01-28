@@ -32,71 +32,17 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
-.header{
-    height: 40px;
-    width: 100%;
-    background-color: darkturquoise;
-    z-index: 5;
-    position: fixed;
-}
-ul{
+/* ------------------------------------ */
+.horizontal{
+    height: 50px;
     display: flex;
-    line-height: 40px;
-    color: white;
-    margin-left: 40px;
-
+    justify-content: space-around;
+    align-items: center;
 }
-.nav-item{
-    margin-left: 16px;
-    text-decoration: none;
-}
-/* .nav-item:first-child{
-    margin-left: 40px;
-} */
-.content{
-    z-index: 2;
-    height: 5000px;
-    width: 100%;
-    background-color: beige;
-    padding-top: calc(50vh - 100px);
-}
-.head{
-    width: 200px;
+.vertical{
     height: 200px;
-    margin: 0 auto;
-    
-
-    position: relative;
-    background-color: aquamarine;
-}
-.ear{
-    width: 40px;
-    height: 60px;
-    background-color: brown;
-}
-.eye{
-    width: 30px;
-    height: 30px;
-    background-color: grey;
-    border-radius: 50%;
-}
-.ear_right{
-    position: absolute; 
-     left: -40px; 
-    top: -60px; 
-}
-.ear_left{
-    position: absolute;
-    right: -40px; 
-    top: -60px;
-}
-.eye_right{
-    position: absolute;
-    top: 80px;
-    left: 40px;
-}
-.eye_left{
-    position: absolute;
-    top: 80px;
-    right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
