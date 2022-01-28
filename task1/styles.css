@@ -39,6 +39,9 @@ blockquote, q {
     flex-grow: 1;
     flex-shrink: 0;
 }
+.block:nth-child(6){
+min-width: 101px;
+}
 .container{
     display: flex;
     flex-wrap: wrap;
