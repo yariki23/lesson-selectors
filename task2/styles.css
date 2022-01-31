@@ -35,9 +35,9 @@ blockquote, q {
 	quotes: none;
 } 
 /* ------------------------------------ */
-*{
+/* {
 	box-sizing: border-box;
-}
+} */
 header{
 	height: 78px;
 	display: flex;
@@ -51,7 +51,7 @@ line-height: 78px;
 	flex-wrap: wrap;
 }
 .article{
-	margin: 8px;
+	margin: 9px;
 	padding: 16px;
 	background-color: bisque;
 	flex-basis: 300px;
