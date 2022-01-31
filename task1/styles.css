@@ -36,13 +36,50 @@ blockquote, q {
 .block{
     height: 100px;
     min-width: 100px;
-    flex-grow: 1;
+	margin: 8px;
     flex-shrink: 0;
-    box-sizing: border-box;
+	flex-grow: 1;
+	font-size: 0;
+	position: relative;
 }
-.block:nth-child(10){
-max-width: 102.37px;
+.block::before{
+	font-size: 16px;
+	position: absolute;
 }
+.block:nth-child(1)::before{	
+	content: "1";
+}
+.block:nth-child(2)::before{	
+	content: "2";
+}
+.block:nth-child(3)::before{	
+	content: "3";
+}
+.block:nth-child(4)::before{	
+	content: "4";
+}
+.block:nth-child(5)::before{	
+	content: "5";
+}
+.block:nth-child(6)::before{	
+	content: "6";
+}
+.block:nth-child(7)::before{	
+	content: "7";
+}
+.block:nth-child(8)::before{	
+	content: "8";
+}
+.block:nth-child(9)::before{	
+	content: "9";
+}
+.block:nth-child(10)::before{	
+	content: "10";
+}
+.block:nth-child(11)::before{	
+	content: "11";
+}
+
 .container{
     display: flex;
     flex-wrap: wrap;
