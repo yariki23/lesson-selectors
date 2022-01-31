@@ -38,13 +38,10 @@ blockquote, q {
 *{
 	box-sizing: border-box;
 }
-header{
-	height: 78px;
+/* header{
 	display: flex;
-}
+} */
 h1{
-/* margin: 0 auto; */
-line-height: 78px;
 text-align: center;
 }
 .articles-list{
@@ -59,10 +56,6 @@ text-align: center;
 	flex-basis: 300px;
 	flex-grow: 1; 
 } */
-/* h1 {
-  
-} */
-
 .article {
   flex: 1 0 300px;
   padding: 16px;
