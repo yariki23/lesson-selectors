@@ -35,16 +35,16 @@ blockquote, q {
 	quotes: none;
 } 
 /* ------------------------------------ */
-/*{
+*{
 	box-sizing: border-box;
-} */
+}
 header{
-	height: 40px;
+	height: 100px;
 	display: flex;
 }
 h1{
 margin: 0 auto;
-line-height: 40px;
+line-height: 100px;
 }
 .articles-list{
 	display: flex;
