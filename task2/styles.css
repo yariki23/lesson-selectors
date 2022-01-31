@@ -38,63 +38,26 @@ blockquote, q {
 *{
 	box-sizing: border-box;
 }
-h2{
-	font-weight: bold;
-	font-size: 1.5em;
-}
-footer{
-	background-color: green;
-	display: flex;
-}
 body{
 	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
+	
 }
-aside{
-	background-color: grey;
-	display: flex;
-	flex-direction: column;
-
+div{
+	height: 300px;
+	flex-grow: 1;
 }
-.new{
-	margin-left: 16px;
-	line-height: 40px;
+.block_red{
+	background-color: red;
 }
-.new:nth-child(1){
-	margin-top: 16px;
+.block_green{
+	background-color: green;
 }
-header{
+.block_blue{
+	background-color: blue;
+}
+.block_yellow{
 	background-color: yellow;
 }
-header, footer{
-	height: 40px;
-}
-main{
-	display: flex;
-	flex-grow: 1;
-}
-nav ul{
-	display: flex;
-}
-aside{
-	width: 200px;
-}
-aside h2{
-	margin: 16px auto 0;
-}
-section{
-	display: flex;
-	flex-grow: 1;
-	background-color: pink;
-	justify-content: center;
-	align-items: center;
-}
-.nav_item{
-	margin-left: 16px;
-	line-height: 40px;
-}
-.footer__text{
-	
-	margin: auto;
+.block_black{
+	background-color: black;
 }
