@@ -26,7 +26,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 } */
-ol, ul {
+/* ol, ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -35,9 +35,9 @@ blockquote, q {
 	quotes: none;
 } 
 /* ------------------------------------ */
-*{
+/*{
 	box-sizing: border-box;
-}
+} */
 header{
 	
 	display: flex;
