@@ -38,26 +38,22 @@ blockquote, q {
 *{
 	box-sizing: border-box;
 }
-body{
-	display: flex;
+header{
 	
+	display: flex;
 }
-div{
-	height: 300px;
-	flex-grow: 1;
+h1{
+margin: 0 auto;
 }
-.block_red{
-	background-color: red;
+.articles-list{
+	display: flex;
+	flex-wrap: wrap;
 }
-.block_green{
-	background-color: green;
-}
-.block_blue{
-	background-color: blue;
-}
-.block_yellow{
-	background-color: yellow;
-}
-.block_black{
-	background-color: black;
+.article{
+	margin: 8px;
+	padding: 16px;
+	background-color: bisque;
+	flex-basis: 300px;
+	
+	flex-grow: 1; 
 }
