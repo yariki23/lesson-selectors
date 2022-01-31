@@ -35,26 +35,37 @@ blockquote, q {
 	quotes: none;
 } 
 /* ------------------------------------ */
-
+*{
+	box-sizing: border-box;
+}
 header{
 	height: 78px;
 	display: flex;
 }
 h1{
-margin: 0 auto;
+/* margin: 0 auto; */
 line-height: 78px;
+text-align: center;
 }
 .articles-list{
 	display: flex;
 	flex-wrap: wrap;
 }
-.article{
+/* .article{
 	margin: 8px;
 	padding: 16px;
 	background-color: bisque;
 	flex-shrink: 0;
-	/* max-width: 300px; */
 	flex-basis: 300px;
-	box-sizing: border-box;
 	flex-grow: 1; 
+} */
+/* h1 {
+  
+} */
+
+.article {
+  flex: 1 0 300px;
+  padding: 16px;
+  margin: 8px;
+  background-color: bisque;
 }
