@@ -53,10 +53,14 @@ aside{
 	background-color: grey;
 	display: flex;
 	flex-direction: column;
+	padding-top: 1px;
 }
 .new{
-	margin: 16px;
+	margin-left: 16px;
 	line-height: 40px;
+}
+.new:nth-child(1){
+	margin-top: 16px;
 }
 header{
 	background-color: yellow;
@@ -67,6 +71,7 @@ header, footer{
 main{
 	display: flex;
 	flex-grow: 1;
+	padding-bottom: 1px;
 }
 nav ul{
 	display: flex;
