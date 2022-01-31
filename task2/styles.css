@@ -60,7 +60,7 @@ aside{
 	line-height: 40px;
 }
 .new:nth-child(1){
-	margin-top: 18px;
+	margin-top: 15px;
 }
 header{
 	background-color: yellow;
@@ -72,6 +72,7 @@ main{
 	display: flex;
 	flex-grow: 1;
 	padding-bottom: 3px;
+	box-sizing: border-box;
 }
 nav ul{
 	display: flex;
