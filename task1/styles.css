@@ -41,7 +41,7 @@ blockquote, q {
 	flex-grow: 1;
 	font-size: 0;
 	position: relative;
-	padding-top: 3px;
+	padding-top: 1px;
 	box-sizing: border-box;
 }
 .block::before{
