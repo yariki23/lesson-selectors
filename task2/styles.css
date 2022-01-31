@@ -35,9 +35,9 @@ blockquote, q {
 	quotes: none;
 } 
 /* ------------------------------------ */
-/* {
+{
 	box-sizing: border-box;
-} */
+}
 header{
 	height: 78px;
 	display: flex;
