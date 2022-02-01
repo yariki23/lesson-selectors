@@ -38,27 +38,13 @@ blockquote, q {
 *{
 	box-sizing: border-box;
 }
-/* header{
-	display: flex;
-} */
-h1{
-text-align: center;
+
+.container div:nth-child(1){
+	display: none;
 }
-.articles-list{
-	display: flex;
-	flex-wrap: wrap;
+.container div:nth-child(2){
+	visibility: hidden;
 }
-/* .article{
-	margin: 8px;
-	padding: 16px;
-	background-color: bisque;
-	flex-shrink: 0;
-	flex-basis: 300px;
-	flex-grow: 1; 
-} */
-.article {
-  flex: 1 0 300px;
-  padding: 16px;
-  margin: 8px;
-  background-color: bisque;
+.container div:nth-child(3){
+	visibility: visible;
 }
