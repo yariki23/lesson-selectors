@@ -39,16 +39,10 @@ blockquote, q {
 	/* margin: 32px; */
 	
 } 
-html{
-	font-size: 18px;
-
+div{
+	background: blueviolet;
 }
-.properties-list{
-	color: #f39;
+p::first-letter{
+	color: green;
 	font-size: 24px;
-}
-.properties-list__item{
-
-	line-height: 32px;
-	padding: 8px;
 }
