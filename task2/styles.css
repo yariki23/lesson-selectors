@@ -39,6 +39,13 @@ blockquote, q {
 	/* margin: 32px; */
 	
 } 
-body{
-	background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw2/background.jpg);
+html{
+	font-size: 18px;
+
+}
+properties-list__item{
+	color: #f39;
+	font-size: 24px;
+	height: 32px;
+	padding: 8px;
 }
