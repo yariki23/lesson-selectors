@@ -40,14 +40,13 @@ blockquote, q {
 	
 } 
 div{
-	font-size: 32px;
-	font-weight: 700;
-	color: white;
-	padding-top: 32px;
-	text-align: center;
-	width: 300px;
-	height: 500px;
-	background-position: center;
-	background-size: cover;
-	background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg);
+	background-position-x: -200px;
+	
+	margin: 100px;
+	width: 100px;
+	height: 100px;
+	background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task2/sprites.png);
+}
+div:hover{
+	background-position-y: 100px;
 }
