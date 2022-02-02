@@ -51,10 +51,11 @@ h1{
 	word-spacing: 20px;
 	text-transform: uppercase;
 	text-align: center;
+	font-size: 38px;
 }
 p{
 	line-height: 28px;
-
+	font-size: 18px;
 }
 span{
 	font-weight: bold;
@@ -66,4 +67,6 @@ span{
 a{
 	text-decoration: none;
 }
-
+em{
+	color: gray;
+}
