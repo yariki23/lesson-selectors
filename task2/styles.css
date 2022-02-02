@@ -49,6 +49,6 @@ html{
 }
 .properties-list__item{
 
-	/* line-height: 32px; */
+	line-height: 32px;
 	padding: 8px;
 }
