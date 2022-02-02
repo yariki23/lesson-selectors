@@ -38,40 +38,22 @@ blockquote, q {
 *{
 	box-sizing: border-box;
 }
-.menu-button{
-	padding: 16px;
-	background-color: darkgreen;
-	opacity: 0.8;
-	font-size: 16px;
-	color: white;
-	cursor: pointer;
-	display: block;
+.text{
+	display: inline-flex;
 	position: relative;
-}
-.menu-button:hover{
-	opacity: 1;
-}
-.dropdown{
 	margin: 16px;
-	display: inline-block;
-}
-.menu-list{
-	position: absolute;
-	
-	display: none;
-	margin: 0;
-	padding: 0;
-	background-color: lightcyan;
-	color: black;
-	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
-	min-width: 120px;
-	z-index: 1;
+	border-bottom: 1px dotted black;
 	
 }
-.menu-item{
-	padding: 16px;
-}
-.dropdown:hover .menu-list{
+.text:hover .tooltip{
 	display: block;
-	
+}
+.tooltip{
+	position: absolute;
+	background-color: gray;
+	color: white;
+	border-radius: 4px;
+	padding: 8px;
+	bottom: -40px;
+	display: none;
 }
