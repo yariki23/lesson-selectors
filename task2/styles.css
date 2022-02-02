@@ -46,13 +46,12 @@ blockquote, q {
 } 
 h1{
 	width: 50%;
-	margin: 0 auto 0;
+	text-align: center;
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	text-align: center;
 	font-size: 74px;
-	display: inline-block;
+	margin: 16px auto;
 }
 header{
 	padding: 0;
