@@ -26,7 +26,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 } */
-/* ol, ul {
+ ol, ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -38,23 +38,39 @@ blockquote, q {
 *{
 	box-sizing: border-box;
 }
-.articles div{
-	height: 100px;
-	width: 150px;
-	background-color: beige;
+.menu-button{
+	padding: 16px;
+	background-color: darkgreen;
+	opacity: 0.8;
+	font-size: 16px;
+	color: white;
+	cursor: pointer;
+	display: block;
+	position: relative;
+}
+.menu-button:hover{
+	opacity: 1;
+}
+.dropdown{
 	margin: 16px;
+	display: inline-block;
 }
-.articles{
-	display: flex;
+.menu-list{
+	position: absolute;
+	
+	display: none;
+	margin: 0;
+	padding: 0;
+	background-color: lightcyan;
+	color: black;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+	min-width: 120px;
+	z-index: 1;
+	background-color: ghostwhite;
 }
-.cropped{
-	overflow: hidden;
+.menu-item{
+	padding: 16px;
 }
-.both-scrolls{	
-	overflow: scroll;
-	cursor: all-scroll;
-}
-.vertical-scroll{
-	overflow-y: auto;
-	cursor: all-scroll;
+.dropdown:hover .menu-list{
+	display: block;
 }
