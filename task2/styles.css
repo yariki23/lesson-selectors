@@ -41,14 +41,21 @@ blockquote, q {
 /* ------------------------------------ */
  *{
 	box-sizing: border-box;
+	margin: 32px;
+	font-family: Roboto, sans-serif;
 } 
-img{
-	margin: 8px;
+h1{
+	word-spacing: 20px;
+	text-transform: uppercase;
+	align-items: center;
 }
-.gallery{
-	cursor: all-scroll;
-	display: flex;
-	/* visibility: hidden; */
-	overflow-x: auto;
-}
+p{
+	line-height: 28px;
 
+}
+span{
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size: 24px;
+	opacity: 0.8;
+}
