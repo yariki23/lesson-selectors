@@ -40,18 +40,23 @@ blockquote, q {
 } 
 /* ------------------------------------ */
  *{
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 	/* margin: 32px; */
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 } 
 h1{
 	width: 50%;
+	margin: 0 auto 0;
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	text-align: center;
 	font-size: 74px;
-	margin-top: -1px;
+	display: inline-block;
+}
+header{
+	padding: 0;
+	margin: 0;
 }
 div{
 	height: 200px;
