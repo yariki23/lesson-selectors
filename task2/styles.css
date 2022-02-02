@@ -41,13 +41,16 @@ blockquote, q {
 /* ------------------------------------ */
  *{
 	box-sizing: border-box;
-	margin: 32px;
+	/* margin: 32px; */
 	font-family: Roboto, sans-serif;
 } 
+section{
+	margin: 32px;
+}
 h1{
 	word-spacing: 20px;
 	text-transform: uppercase;
-	align-items: center;
+	text-align: center;
 }
 p{
 	line-height: 28px;
@@ -58,4 +61,9 @@ span{
 	letter-spacing: 3px;
 	font-size: 24px;
 	opacity: 0.8;
+	text-decoration: underline;
 }
+a{
+	text-decoration: none;
+}
+
