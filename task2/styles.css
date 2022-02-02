@@ -44,7 +44,7 @@ html{
 
 }
 .properties-list{
-	margin: 0;
+	margin-top: -1px;
 }
 .properties-list__item{
 	color: #f39;
