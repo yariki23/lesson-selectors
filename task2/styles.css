@@ -45,7 +45,7 @@ blockquote, q {
 .text{
 	display: inline-flex;
 	position: relative;
-	margin: 16px;
+	margin: 15px 16px 16px 16px;
 	border-bottom: 1px dotted black;
 	
 }
