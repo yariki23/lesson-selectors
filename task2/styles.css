@@ -48,5 +48,7 @@ img{
 .gallery{
 	cursor: all-scroll;
 	display: flex;
+	/* visibility: hidden; */
+	overflow-x: auto;
 }
 
