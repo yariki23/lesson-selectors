@@ -39,9 +39,9 @@ blockquote, q {
 	quotes: none;
 } 
 /* ------------------------------------ */
-*{
+/* *{
 	box-sizing: border-box;
-}
+} */
 .text{
 	display: inline-flex;
 	position: relative;
