@@ -51,12 +51,12 @@ h1{
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	font-size: 74px;
-	margin: 16px auto;
+	margin: 0 auto;
 }
-/* header{
+header{
 	padding: 0;
 	margin: 0;
-} */
+}
 div{
 	height: 200px;
 	background-color: coral;
