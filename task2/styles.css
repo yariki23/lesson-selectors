@@ -44,9 +44,6 @@ blockquote, q {
 	/* margin: 32px; */
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 } 
-section{
-	margin: 32px;
-}
 h1{
 	width: 50%;
 	overflow: hidden;
@@ -54,6 +51,7 @@ h1{
 	text-overflow: ellipsis;
 	text-align: center;
 	font-size: 74px;
+	margin-top: -1px;
 }
 div{
 	height: 200px;
