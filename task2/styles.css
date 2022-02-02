@@ -39,25 +39,14 @@ blockquote, q {
 	quotes: none;
 } 
 /* ------------------------------------ */
-/* *{
+ *{
 	box-sizing: border-box;
-} */
-.text{
-	display: inline-flex;
-	position: relative;
-	margin: 15px 16px 16px 16px;
-	border-bottom: 1px dotted black;
-	
+} 
+img{
+	margin: 8px;
 }
-.text:hover .tooltip{
-	display: block;
+.gallery{
+	cursor: all-scroll;
+	display: flex;
 }
-.tooltip{
-	position: absolute;
-	background-color: gray;
-	color: white;
-	border-radius: 4px;
-	padding: 8px;
-	bottom: -40px;
-	display: none;
-}
+
