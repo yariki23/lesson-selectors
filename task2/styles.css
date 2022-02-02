@@ -39,10 +39,37 @@ blockquote, q {
 	/* margin: 32px; */
 	
 } 
-div.rectangle{
-	background: blueviolet;
+.image-container{
+	padding: 50px 0;
+	
 }
-p.text::first-letter{
-	color: green;
-	font-size: 24px !important;
+.image-container img{
+	margin: 0 auto;
+	display: block;
+	max-width: 100%;
+	height: auto;
+	border-radius: 20px;
+}
+.gallery{
+	display: flex;
+}
+figure{
+	box-shadow: 0px 7px 18px -8px rgba(0,0,0,0.75);
+	margin: 16px;
+}
+figure:nth-child(1) img{
+	filter: opacity(50%);
+}
+figure:nth-child(2) img{
+	filter: blur(4px);
+}
+figure:nth-child(3) img{
+	filter: invert(100%);
+}
+figcaption{
+	line-height: 30px;
+	text-align: center;
+	text-transform: lowercase;
+	
+
 }
