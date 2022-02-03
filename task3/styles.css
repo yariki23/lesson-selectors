@@ -26,7 +26,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 } */
- ol, ul {
+ol, ul {
 	list-style: none;
 }
 
@@ -39,7 +39,7 @@ blockquote, q {
 	/* margin: 32px; */
 	
 } 
-div{
+.form-control{
 	margin: 16px;
 }
 textarea{
