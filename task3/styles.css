@@ -35,18 +35,11 @@ blockquote, q {
 } 
 /* ------------------------------------ */
  *{
-	/* box-sizing: border-box; */
-	/* margin: 32px; */
-	
+	 box-sizing: border-box; 
 } 
-body{
-	
-	display: flex;
-	flex-direction: column;
-}
 div{
 	margin: 16px;
 }
-textarea{
+/* textarea{
 	margin-top: 1px;
-}
+} */
