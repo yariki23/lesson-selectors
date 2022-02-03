@@ -10,16 +10,18 @@
     </head>
 
 <body>
+    <form action="#">
     <div>
-        <input type="text" name="lastName" value="Emerson" readonly>
+        <input type="text" name="lastName" id="lastNeme" value="Emerson" readonly>
+        <label for="lastNeme">Last Name</label>
     </div>
     <div>
-        <input type="number" name="age" min="3" max="10" value="17">
+        <input type="number" id="age" name="age" min="3" max="10" value="17">
+        <label for="age">Age</label>
     </div>
     <div>
         <input type="checkbox" name="agree" id="agree-accept" disabled>
         <label for="agree-accept">Accept terms and conditions</label>
-
     </div>
     <div class="choose-gender">
         <input type="radio" name="gender" id="choose-male" checked>
@@ -35,6 +37,7 @@
     <div>
         <input type="submit">
     </div>
+    </form>
 </body>
 
 </html>
