@@ -40,30 +40,5 @@ blockquote, q {
 	
 } 
 div{
-	position: relative;
-}
-img{
-	display: block;
-	margin: 0 auto;
-	max-width: 100%;
-	height: auto;
-	
-}
-.image-button{
-	width: 200px;
-	height: 50px;
-	background-color: bisque;
-	font-size: 12px;
-	font-weight: 700;
-	opacity: 0.5;
-	text-align: center;
-	line-height: 50px;
-	text-transform: uppercase;
-	position: absolute;
-	top: calc(50% - 25px);
-	left: calc(50% - 100px);
-}
-.image-button:hover{
-	opacity: 1;
-	cursor: pointer;
+	margin: 16px;
 }
