@@ -35,7 +35,7 @@ ol, ul {
 }  */
 /* ------------------------------------ */
  *{
-	box-sizing: border-box; 
+	/* box-sizing: border-box;  */
 } 
 
 .page{
@@ -63,7 +63,7 @@ input{
 	height: 32px;
 	border-radius: 4px;
 	border: 1px solid #808080;
-	/* outline: none; */
+	outline: none;
 	padding: 4px;
 
 }
