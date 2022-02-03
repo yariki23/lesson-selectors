@@ -42,3 +42,6 @@ blockquote, q {
 div{
 	margin: 16px;
 }
+textarea{
+	margin-top: 1px;
+}
