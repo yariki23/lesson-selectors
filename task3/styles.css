@@ -37,6 +37,27 @@ blockquote, q {
  *{
 	box-sizing: border-box; 
 } 
-div{
+
+.checkbox{
+	position: relative;
+	padding-left: 35px;
+	font-size: 24px;
 	margin: 16px;
+}
+input{
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+.checkmark{
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 25px;
+	height: 25px;
+	background: #d3d3d3;
+}
+input[type="checkbox"]:checked + .checkmark{
+	background: #006400;
 }
