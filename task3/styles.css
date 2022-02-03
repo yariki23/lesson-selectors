@@ -44,7 +44,7 @@ body{
 	display: flex;
 	flex-direction: column;
 }
-.form-control{
+div{
 	margin: 16px;
 }
 textarea{
