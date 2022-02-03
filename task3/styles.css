@@ -43,6 +43,7 @@ blockquote, q {
 	padding-left: 35px;
 	font-size: 24px;
 	margin: 16px;
+	display: inline-block;
 }
 input{
 	width: 0;
