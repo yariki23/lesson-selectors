@@ -37,6 +37,9 @@ blockquote, q {
  *{
 	box-sizing: border-box; 
 } 
-div{
-	margin: 16px;
+form{
+	margin: 32px;
+}
+input{
+	margin: 8px;
 }
