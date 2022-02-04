@@ -43,3 +43,11 @@ body {
 	background-color: tomato;
 	transform: translateY(100px) translateX(200px) rotate(45deg) scale(1.5);
 }
+
+p {
+  margin: 0 32px;
+  padding: 8px;
+  background-color: antiquewhite;
+  display: inline-block;
+  border-radius: 4px;
+}
