@@ -38,13 +38,17 @@ ol, ul {
 	box-sizing: border-box; 
 } 
 main{
-	height: 156px;
-	overflow: hidden;
+	/* height: 156px;
+	overflow: hidden; */
+	overflow: auto;
 }
 table{
 	width: 500px;
 	margin: 16px;
 	
+}
+tr{
+	line-height: 40px;
 }
 table,th,td{
 	border: 1px solid black;
@@ -53,4 +57,16 @@ table,th,td{
 td,th{
 	text-align: right;
 	padding: 4px;
+}
+tbody > tr:nth-child(odd){
+	background-color: #f2f2f2;
+}
+tbody > tr:hover{
+	background-color: #aaa;
+	color: white;
+}
+thead{
+	background-color: aqua;
+	font-weight: 700;
+	padding-bottom: 8px;
 }
