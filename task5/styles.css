@@ -52,7 +52,7 @@ body {
 .spinner-text{
 	animation: blinking 2s;
 	animation-iteration-count: infinite;
-	animation-direction: alternate;
+	/* animation-direction: alternate; */
 }
 .rect{
 	background-color: black;
