@@ -37,22 +37,34 @@ body {
  *{
 	box-sizing: border-box; 
 } 
-main{
+.row{
 	display: flex;
-	justify-content: space-around;
 }
-.fa-battery-full{
-	font-size: 16px;
+button{
+	margin: 64px;
+	width: 200px;
+	height: 50px;
+	background-color: coral;
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	border-radius: 4px;
+	font-weight: 700;
+	border: none;
+	cursor: pointer;
+	line-height: 50px;
+	text-transform: uppercase;
+
 }
-.fa-battery-three-quarters{
-font-size: 32px;	
+.one svg{
+	width: 32px;
+	height: 32px;
+	fill: white;
+	vertical-align: middle;
 }
-.fa-battery-half{
-	font-size: 64px;
+.one:hover svg{
+	fill: green;
 }
-.fa-battery-quarter{
-	font-size: 128px;
+button:hover{
+	color: darkcyan;
 }
-.fa-battery-empty{
-	font-size: 256px;
-}
+
