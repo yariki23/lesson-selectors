@@ -42,35 +42,16 @@ main{
 	justify-content: space-around; */
 }
 .container{
-	margin: 32px;
+	margin: 16px;
 }
 .rect{
 	width: 100px;
 	height: 100px;
 	background-color: coral;
 	margin-bottom: 16px;
-	text-align: center;
-	line-height: 100px;
-	opacity: 0.5;
+	transition-property: width;
+	transition-duration: 1s;
 }
 .rect:hover{
 	width: 100%;
-	opacity: 1;
-		transition-property: width, opacity;
-	transition-duration: 2s, 0.5s;
-}
-.rect:nth-child(1){
-	transition-timing-function: linear;
-}
-.rect:nth-child(5){
-	transition-timing-function: ease-in-out;
-}
-.rect:nth-child(2){
-	transition-timing-function: ease;
-}
-.rect:nth-child(3){
-	transition-timing-function: ease-in;
-}
-.rect:nth-child(4){
-	transition-timing-function: ease-out;
 }
