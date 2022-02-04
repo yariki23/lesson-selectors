@@ -52,6 +52,7 @@ button{
 	border: none;
 	cursor: pointer;
 	line-height: 50px;
+	text-transform: uppercase;
 
 }
 .one svg{
