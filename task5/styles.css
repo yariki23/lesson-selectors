@@ -40,17 +40,30 @@ body {
 .row{
 	display: flex;
 }
-.column{
-	display: flex;
-	flex-direction: column;
-	flex: 1;
-	align-items: center;
+button{
+	margin: 64px;
+	width: 200px;
+	height: 50px;
+	background-color: coral;
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	border-radius: 4px;
+	font-weight: 700;
+	border: none;
+	cursor: pointer;
+	line-height: 50px;
+
 }
-.small-bird{
-	width: 64px;
-	height: 64px;
+.one svg{
+	width: 32px;
+	height: 32px;
+	fill: white;
+	vertical-align: middle;
 }
-.large-bird{
-	width: 320px;
-	height: 320px;
+.one:hover svg{
+	fill: green;
 }
+button:hover{
+	color: darkcyan;
+}
+
