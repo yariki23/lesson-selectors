@@ -73,3 +73,6 @@ thead{
 caption{
 	margin-bottom: 8px;
 }
+tfoot{
+	font-weight: 700;
+}
