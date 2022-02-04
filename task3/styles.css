@@ -68,5 +68,5 @@ tbody > tr:hover{
 thead{
 	background-color: aqua;
 	font-weight: 700;
-	padding-bottom: 8px;
+	margin-bottom: 8px;
 }
