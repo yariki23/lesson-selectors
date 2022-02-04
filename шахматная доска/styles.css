@@ -37,20 +37,37 @@ body {
  *{
 	box-sizing: border-box; 
 } 
-.row{
-	display: flex;
+table{
+	margin: 16px;
+	border: 1px solid black;
+		border-collapse: collapse;
 }
-.column{
-	display: flex;
-	flex-direction: column;
-	flex: 1;
-	align-items: center;
+td{
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border: 1px solid black;
+
 }
-.small-bird{
-	width: 64px;
-	height: 64px;
+tr:nth-child(odd) td:nth-child(even){
+	background-color: #000;
 }
-.large-bird{
-	width: 320px;
-	height: 320px;
+tr:nth-child(even) td:nth-child(odd){
+	background-color: #000;
+}
+tr:last-child td:nth-child(odd){
+	background-color: white;
+}
+tr:first-child td:nth-child(even){
+	background-color: white;
+}
+tr:nth-child(even) td:first-child{
+	background-color: white;
+
+}
+tr:nth-child(odd) td:last-child{
+	background-color: white;
+}
+tr:first-child td, tr:last-child td,tr td:last-child, tr td:first-child{
+	border: none;
 }
