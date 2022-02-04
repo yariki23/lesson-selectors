@@ -37,36 +37,30 @@ body {
  *{
 	box-sizing: border-box; 
 } 
-.square{
-	width: 100px;
-	height: 100px;
-	background-color: coral;
-	position: absolute;
-	animation: move 4s;
-	animation-iteration-count: 2;
+.container{
+	width: 100vw;
+	height: 100vh;
+	font-family: monospace;
+	font-size: 16px;
+	text-transform: uppercase;
+	display: flex;
+}
+.spinner{
+	margin: auto;
+	position: relative;
+}
+.spinner-text{
+	animation: blinking 2s;
+	animation-iteration-count: infinite;
 	animation-direction: alternate;
 }
-@keyframes move{
-	0% {
-		left: 0;
-	}
-	25%{
-		left: 300px;
-		top: 0;
-		background-color: cornflowerblue;
-	}
-	50%{
-		left: 300px;
-		top: 300px;
-		background-color: aqua;
-	}
-	75%{
-		left: 0;
-		top: 300px;
-		background-color: yellowgreen;
-	}
-	100%{
-		left: 0;
-		top: 0;
-	}
+.rect{
+	background-color: black;
+	width: 10px;
+	height: 4px;
+	position: absolute;
+	border-radius: 2px;
+	animation: blinking 2s, moving 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
