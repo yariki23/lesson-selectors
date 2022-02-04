@@ -38,6 +38,7 @@ ol, ul {
 	box-sizing: border-box; 
 } 
 main{
+	height: 155px;
 	overflow: hidden;
 }
 table{
