@@ -57,7 +57,7 @@ h1{
 	text-transform: uppercase;
 	text-align: center;
 }
-form-control{
+.form-control{
 	margin-bottom: 8px;
 }
 input{
