@@ -48,7 +48,7 @@ table{
 	
 }
 tr{
-	line-height: 40px;
+	height: 40px;
 }
 table,th,td{
 	border: 1px solid black;
@@ -68,5 +68,8 @@ tbody > tr:hover{
 thead{
 	background-color: aqua;
 	font-weight: 700;
+	
+}
+caption{
 	margin-bottom: 8px;
 }
