@@ -71,7 +71,7 @@ body {
 	border-radius: 50%;
 	animation: spin 2s;
 	position: relative;
-	left: 17px;
+	left: 15px;
 	transition-timing-function: linear;
 	animation-iteration-count: infinite;
 }
