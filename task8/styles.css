@@ -70,6 +70,8 @@ body {
 	margin-bottom: 8px;
 	border-radius: 50%;
 	animation: spin 2s;
+	position: relative;
+	left: 20px;
 	transition-timing-function: linear;
 	animation-iteration-count: infinite;
 }
