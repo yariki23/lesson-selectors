@@ -37,34 +37,21 @@ body {
  *{
 	box-sizing: border-box; 
 } 
-main{
-	min-height: 100vh;
-	display: flex;
+html{
+	font-size: 18px;
 }
-.gallery{
-	width: 80%;
-	background-color: #fa5;
-	display: flex;
+.font-in-px{
+	font-size: 27px;
 }
-.image{
-
-	margin: auto;
-	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
-	max-width: 100%;
+.font-in-em{
+	font-size: 1.5em;	
 }
-.ideas{
-	width: 20%;
-	background-color: #5af;
-	display: flex;
+.font-in-vw{
+	font-size: 5vw;
 }
-.idea{
-	margin: auto;
-	text-transform: uppercase;
-	font-weight: 700;
-	overflow: hidden;
-	white-space: nowrap;
-	text-overflow: ellipsis;
-	padding: 4px;
-	color: white;
+.font-in-percents{
+	font-size: 150%;
 }
-
+.font-in-rem{
+	font-size: 1.5rem;
+}
