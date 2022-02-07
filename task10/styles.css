@@ -55,10 +55,10 @@ body{
 	background: linear-gradient(60deg, rgba(255,0,0,1) 0%, rgba(255,165,0,1) 100%);
 }
 h1{
-	margin: 0 auto;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	color: white;
-	padding: 0.5em;
+	
 }
 /* end header */
 .main{
@@ -86,8 +86,8 @@ h1{
 	background-color: #808080;
 	height: 2em;
 	margin-bottom: 0.5em;
-	display: inline-block;
-	width: 100%;
+	display: block;
+	/* width: 100%; */
 	line-height: 2em;
 	padding: 0 0.5em;
 	overflow: hidden;
@@ -118,5 +118,5 @@ h1{
 	background-color: #e5e5e5;
 	padding: 0.5em;
 	text-align: center;
-	font-size: 1.25em;
+
 }
