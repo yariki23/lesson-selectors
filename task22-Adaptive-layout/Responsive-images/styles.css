@@ -34,15 +34,19 @@ body {
 	quotes: none;
 }  */
 /* ------------------------------------ */
- *{
+ /* *{
 	box-sizing: border-box; 
-} 
+}  */
 main{
 	display: flex;
 }
-picture{
+img{
+	overflow-x:hidden; 
 	min-width: 100%;
-	text-align: center;
+	height: auto;
+	box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+picture{
+	margin: auto;
 	
-	/* height: auto; */
 }
