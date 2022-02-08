@@ -37,31 +37,45 @@ body {
  *{
 	box-sizing: border-box; 
 } 
-body{
-	display: flex;
-	height: 100vh;
+html{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
 }
-.container{
-	margin: auto;
-	display: flex;
+.header{
+	height: 3em;
+	padding: 0 1em;
+	background-color: #eee;
 }
-.square{
-	width: 100px;
-	height: 100px;
-	margin: 8px;
-	background-color:  #ff7f50;
+button{
+	font-size: 2em;
+	padding: 0;
+	border: none;
+	background-color: inherit;
+	cursor: pointer;
+	line-height: 3rem;
+	display: none;
 }
-
-@media screen and (min-width: 600px){
-	.square{
-		background-color: #8a2be2;
+ol, ul, li {
+	list-style: none;
+	padding: 0;
+}
+.main{
+	width: 20%;
+	padding: 0.5em;
+}
+.nav-list-link{
+	width: 100%;
+	padding: 0.5em;
+	text-decoration: none;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+@media screen and (max-width: 600px){
+	button{
+		display: inline-block;
 	}
-}
-@media screen and (orientation: portrait) {
-	.container{
-		display: block;
-	}
-	.square{
-		margin: 16px;
+	.main{
+		display: none;
 	}
 }
