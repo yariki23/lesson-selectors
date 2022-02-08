@@ -40,11 +40,9 @@ body {
 main{
 	display: flex;
 }
-img{
-	
-}
 picture{
-	margin: auto;
-	width: 100%;
-	height: auto;
+	min-width: 100%;
+	text-align: center;
+	
+	/* height: auto; */
 }
