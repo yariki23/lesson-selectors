@@ -42,7 +42,7 @@ main{
 }
 img{
 	min-width: 100%;
-	height: auto;
+	/* height: auto; */
 }
 picture{
 	margin: auto;
