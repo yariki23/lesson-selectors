@@ -37,31 +37,12 @@ body {
  *{
 	box-sizing: border-box; 
 } 
-body{
+main{
 	display: flex;
-	height: 100vh;
 }
-.container{
+img{
+	max-width: 100%;
+}
+picture{
 	margin: auto;
-	display: flex;
-}
-.square{
-	width: 100px;
-	height: 100px;
-	margin: 8px;
-	background-color:  #ff7f50;
-}
-
-@media screen and (min-width: 600px){
-	.square{
-		background-color: #8a2be2;
-	}
-}
-@media screen and (orientation: portrait) {
-	.container{
-		display: block;
-	}
-	.square{
-		margin: 16px;
-	}
 }
