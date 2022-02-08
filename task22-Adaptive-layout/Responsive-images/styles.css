@@ -41,9 +41,10 @@ main{
 	display: flex;
 }
 img{
-	width: 100%;
-	height: auto;
+	
 }
 picture{
 	margin: auto;
+	width: 100%;
+	height: auto;
 }
