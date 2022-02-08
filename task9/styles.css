@@ -37,21 +37,28 @@ body {
  *{
 	box-sizing: border-box; 
 } 
-html{
-	font-size: 18px;
+body{
+	display: flex;
+	height: 100vh;
 }
-.font-in-px{
-	font-size: 27px;
+.container{
+	margin: auto;
+	display: flex;
 }
-.font-in-em{
-	font-size: 1.5em;	
+.square{
+	width: 100px;
+	height: 100px;
+	margin: 8px;
+	background-color:  #ff7f50;
 }
-.font-in-vw{
-	font-size: 5vw;
+
+@media screen and (min-width: 600px){
+	.square{
+		background-color: #8a2be2;
+	}
 }
-.font-in-percents{
-	font-size: 150%;
-}
-.font-in-rem{
-	font-size: 1.5rem;
+@media screen and (orientation: portrait) {
+	.container{
+		display: block;
+	}
 }
