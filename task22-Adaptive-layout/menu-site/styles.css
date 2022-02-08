@@ -72,12 +72,12 @@ ol, ul, li {
 .nav-list-link{
 	color: #fff;
 	line-height: 2rem;
-	width: 100%;
-	padding: 0.5em;
+	display: block;
 	text-decoration: none;
+	padding: 0 0.5em;
 	overflow: hidden;
-	text-overflow: ellipsis;
 	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 @media screen and (max-width: 600px){
 	button{
