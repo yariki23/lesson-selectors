@@ -7,7 +7,7 @@ body{
     height: 100vh;
     .container{
         margin: auto;
-        @include or-landscape-size{
+        @include for-landscape-size{
             display: flex;
             .square{
                 margin: 8px;
@@ -27,6 +27,9 @@ body{
             @include for-extra-small{
                 background-color: #ff7f50;
             }
+            @include for-landscape-size{
+                margin: 8px;
+        }
         }
     }
 }
