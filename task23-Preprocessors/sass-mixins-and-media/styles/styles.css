@@ -13,6 +13,9 @@ body .container {
   body .container {
     display: flex;
   }
+  body .container .square {
+    margin: 16px;
+  }
 }
 body .container .square {
   width: 100px;

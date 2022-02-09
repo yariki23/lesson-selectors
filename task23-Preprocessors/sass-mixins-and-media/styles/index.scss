@@ -9,6 +9,9 @@ body{
         margin: auto;
         @include for-portrait-size{
             display: flex;
+            .square{
+                margin: 16px;
+            }
         }
         .square{
             width: 100px;
