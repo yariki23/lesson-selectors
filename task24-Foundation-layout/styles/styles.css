@@ -48,6 +48,10 @@ header {
   display: flex;
   height: 64px;
 }
+header .container__header {
+  display: flex;
+  width: 100%;
+}
 header .container__header .logo {
   display: flex;
   height: 64px;
@@ -76,7 +80,6 @@ header .container__header .burger-menu {
   margin-left: auto;
   width: 58px;
   border: none;
-  position: relative;
   border-left: 1px solid rgba(0, 0, 0, 0.15);
   background-color: inherit;
 }
@@ -164,10 +167,15 @@ header .container__header .burger-menu img {
   flex-direction: column;
 }
 .first-screen__img {
-  width: 100%;
+  max-width: 100%;
   margin-top: 33px;
 }
 
+@media screen and (min-width: 400px) {
+  .first-screen {
+    display: none;
+  }
+}
 .action-button {
   background-color: #3040C4;
   max-width: 100%;

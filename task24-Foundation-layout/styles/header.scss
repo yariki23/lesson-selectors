@@ -2,6 +2,8 @@ header{
     display: flex;
     height: 64px;
     .container__header{
+        display: flex;
+        width: 100%;
         .logo {
             display: flex;
             height: 64px;
@@ -32,10 +34,10 @@ header{
             display: none;
         }
         .burger-menu{
+            // right: 0;
             margin-left: auto;
             width: 58px;
             border: none;
-            position: relative;
             border-left: 1px solid rgba(0, 0, 0, 0.15);
             background-color: inherit;
             img{
@@ -133,9 +135,13 @@ header{
 		}
 
 		&__img {
-            width: 100%;
+            max-width: 100%;
             margin-top: 33px;
             
 		}
 }
-
+@include for-large-up{
+    .first-screen{
+        display: none;
+    }
+}
