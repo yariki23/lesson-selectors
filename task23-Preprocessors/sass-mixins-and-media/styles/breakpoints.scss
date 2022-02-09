@@ -17,7 +17,7 @@ $lg: 1199px;
         @content;
     }
 }
-@mixin for-portrait-size {
+@mixin for-landscape-size {
     @media screen and (orientation:landscape){
         @content;
     }

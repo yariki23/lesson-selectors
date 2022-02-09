@@ -1,42 +1,21 @@
-* {
-  box-sizing: border-box;
-}
+/* Error: Undefined mixin.
+ *    ,
+ * 10 | /         @include or-landscape-size{
+ * 11 | |             display: flex;
+ * 12 | |             .square{
+ * 13 | |                 margin: 8px;
+ * 14 | |             }
+ * 15 | \         }
+ *    '
+ *   index.scss 10:9  root stylesheet */
 
-body {
-  display: flex;
-  height: 100vh;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 10 \2502  \250c          @include or-landscape-size{\a 11 \2502  \2502              display: flex;\a 12 \2502  \2502              .square{\a 13 \2502  \2502                  margin: 8px;\a 14 \2502  \2502              }\a 15 \2502  \2514          }\a    \2575 \a   index.scss 10:9  root stylesheet";
 }
-body .container {
-  margin: auto;
-}
-@media screen and (orientation: landscape) {
-  body .container {
-    display: flex;
-  }
-  body .container .square {
-    margin: 16px;
-  }
-}
-body .container .square {
-  width: 100px;
-  height: 100px;
-  margin: 8px;
-  background-color: #c47;
-}
-@media screen and (max-width: 1199px) {
-  body .container .square {
-    background-color: #a61;
-  }
-}
-@media screen and (max-width: 899px) {
-  body .container .square {
-    background-color: #8a2be2;
-  }
-}
-@media screen and (max-width: 600px) {
-  body .container .square {
-    background-color: #ff7f50;
-  }
-}
-
-/*# sourceMappingURL=styles.css.map */

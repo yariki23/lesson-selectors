@@ -7,16 +7,16 @@ body{
     height: 100vh;
     .container{
         margin: auto;
-        @include for-portrait-size{
+        @include or-landscape-size{
             display: flex;
             .square{
-                margin: 16px;
+                margin: 8px;
             }
         }
         .square{
             width: 100px;
             height: 100px;
-            margin: 8px;
+            margin: 16px;
             background-color: #c47;
             @include for-large-up{
                 background-color: #a61;
