@@ -1,0 +1,12 @@
+@import 'layout.scss';
+
+@media screen and (min-width: 600px){
+    .products{
+        flex-direction: row;
+    }
+}
+@media screen and (min-width: 1200px){
+    .container{
+        flex-direction: row;
+    }
+}
